@@ -336,7 +336,7 @@ function containsSubstring(str, substring) {
  *   isPalindrome('apple') => false
  *   isPalindrome('No lemon, no melon') => true
  */
-/*function isPalindrome(str) {
+function isPalindrome(str) {
   str = str.toLowerCase();
     let str1 = str.split('').reverse().join('').replace(/[^\w\s]|_/g, "");
       str = str.toLowerCase().split(' ').join('').replace(/[^\w\s]|_/g, "");
@@ -347,7 +347,7 @@ function containsSubstring(str, substring) {
       return false;
 }
 }
-*/
+
 /**
  * Find the longest word in the sentence. If there are multiple longest words,
  * the function returns the first one encountered.
@@ -374,12 +374,12 @@ function containsSubstring(str, substring) {
  *   reverseWords('Hello World') => 'olleH dlroW'
  *   reverseWords('The Quick Brown Fox') => 'ehT kciuQ nworB xoF'
  */
-function reverseWords(str) {
+/*function reverseWords(str) {
   str = str.split('').reverse().join('');
   str = str.split(' ').reverse().join(' ');
   return str;
 }
-
+*/
 /**
  * Inverts the case of each character in the given string.
  *
