@@ -195,7 +195,7 @@ function removeFirstOccurrences(str, value) {
  *   sumOfCodes('') => 0
  *   sumOfCodes() => 0
  */
-/*function sumOfCodes(str) {
+function sumOfCodes(str) {
  str = str.split('');
  let rez = 0 ;
   for (let i = 0; i < a.length; i ++){
@@ -203,7 +203,7 @@ function removeFirstOccurrences(str, value) {
     rez = rez + str[i];
   }
  return rez;
-}*/
+}
 
 /**
  * Checks if a string starts with a specific substring.
@@ -216,9 +216,9 @@ function removeFirstOccurrences(str, value) {
  *   startsWith('Hello World', 'World') => false
  *   startsWith('Hello World', 'Hello') => true
  */
-function startsWith(str, substr) {
+/*function startsWith(str, substr) {
   return str.startsWith(substr);
-}
+}*/
 
 /**
  * Checks if a string ends with a specific substring.
