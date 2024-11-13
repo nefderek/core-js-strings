@@ -263,10 +263,10 @@ function endsWith(str, substr) {
  *   reverseString('abcdef') => 'fedcba'
  *   reverseString('12345') => '54321'
  */
-/*function reverseString(str) {
+function reverseString(str) {
     str = str.split('').reverse().join('');
     return str;
-  }*/
+  }
 
 /**
  * Returns a string with characters in alphabetical order.
@@ -419,9 +419,9 @@ function invertCase(str) {
  *   getStringFromTemplate('John','Doe') => 'Hello, John Doe!'
  *   getStringFromTemplate('Chuck','Norris') => 'Hello, Chuck Norris!'
  */
-function getStringFromTemplate(firstName, lastName) {
+/*function getStringFromTemplate(firstName, lastName) {
   return `Hello, ${firstName} ${lastName}!`;
-}
+}*/
 
 /**
  * Extracts a name from template string 'Hello, First_Name Last_Name!'.
