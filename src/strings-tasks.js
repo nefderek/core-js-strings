@@ -391,7 +391,7 @@ function reverseWords(str) {
  *   invertCase('JavaScript is Fun') => 'jAVAsCRIPT IS fUN'
  *   invertCase('12345') => '12345'
  */
-/*function invertCase(str) {
+function invertCase(str) {
   let newStr = "";
 
   for (let i = 0; i < str.length; i++) {
@@ -403,7 +403,7 @@ function reverseWords(str) {
   }
   return newStr;
 }
-*/
+
 /**
  * Returns the result of string template and given parameters firstName and lastName.
  * Please do not use concatenation, use template string :
@@ -417,9 +417,9 @@ function reverseWords(str) {
  *   getStringFromTemplate('John','Doe') => 'Hello, John Doe!'
  *   getStringFromTemplate('Chuck','Norris') => 'Hello, Chuck Norris!'
  */
-function getStringFromTemplate(firstName, lastName) {
+/*function getStringFromTemplate(firstName, lastName) {
   return `Hello, ${firstName} ${lastName}!`;
-}
+}*/
 
 /**
  * Extracts a name from template string 'Hello, First_Name Last_Name!'.
