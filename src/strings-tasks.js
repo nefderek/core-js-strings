@@ -27,7 +27,7 @@ function getStringLength(value) {
   }
 }
 
-
+/*
 /**
  * Returns true if the value is a string, otherwise returns false.
  *
@@ -488,7 +488,7 @@ function extractEmails(str) {
 function encodeToRot13(str) {
   return str;
 }
-
+*/
 /**
  * Returns playid card id.
  *
