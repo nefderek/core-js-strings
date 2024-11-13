@@ -196,7 +196,7 @@ function removeFirstOccurrences(str, value) {
  *   sumOfCodes('') => 0
  *   sumOfCodes() => 0
  */
-/*function sumOfCodes(str) {
+function sumOfCodes(str) {
  str = str.split('');
  let rez = 0 ;
   for (let i = 0; i < a.length; i ++){
@@ -204,7 +204,7 @@ function removeFirstOccurrences(str, value) {
     rez = rez + str[i];
   }
  return rez;
-}*/
+}
 
 /**
  * Checks if a string starts with a specific substring.
@@ -263,10 +263,10 @@ function endsWith(str, substr) {
  *   reverseString('abcdef') => 'fedcba'
  *   reverseString('12345') => '54321'
  */
-function reverseString(str) {
+/*function reverseString(str) {
     str = str.split('').reverse().join('');
     return str;
-  }
+  }*/
 
 /**
  * Returns a string with characters in alphabetical order.
