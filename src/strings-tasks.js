@@ -262,10 +262,10 @@ function endsWith(str, substr) {
  *   reverseString('abcdef') => 'fedcba'
  *   reverseString('12345') => '54321'
  */
-/*function reverseString(str) {
+function reverseString(str) {
     str = str.split('').reverse().join('');
     return str;
-  }*/
+  }
 
 /**
  * Returns a string with characters in alphabetical order.
@@ -278,10 +278,10 @@ function endsWith(str, substr) {
  *   orderAlphabetically('textbook') => 'bekoottx'
  *   orderAlphabetically('abc123xyz') => '123abcxyz'
  */
-function orderAlphabetically(str) {
+/*function orderAlphabetically(str) {
   str = str.split('').sort().join('');
   return str;
-}
+}*/
 
 /**
  * Checks if a given string contains a specified substring.
