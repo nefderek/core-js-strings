@@ -374,12 +374,12 @@ function isPalindrome(str) {
  *   reverseWords('Hello World') => 'olleH dlroW'
  *   reverseWords('The Quick Brown Fox') => 'ehT kciuQ nworB xoF'
  */
-/*function reverseWords(str) {
+function reverseWords(str) {
   str = str.split('').reverse().join('');
   str = str.split(' ').reverse().join(' ');
   return str;
 }
-*/
+
 /**
  * Inverts the case of each character in the given string.
  *
@@ -391,7 +391,7 @@ function isPalindrome(str) {
  *   invertCase('JavaScript is Fun') => 'jAVAsCRIPT IS fUN'
  *   invertCase('12345') => '12345'
  */
-function invertCase(str) {
+/*function invertCase(str) {
   let newStr = "";
 
   for (let i = 0; i < str.length; i++) {
@@ -403,7 +403,7 @@ function invertCase(str) {
   }
   return newStr;
 }
-
+*/
 /**
  * Returns the result of string template and given parameters firstName and lastName.
  * Please do not use concatenation, use template string :
