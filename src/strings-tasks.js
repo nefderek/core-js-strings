@@ -179,9 +179,9 @@ function removeFirstOccurrences(str, value) {
  *   removeLastOccurrences('I like legends', 'end') => 'I like legs'.
  *   removeLastOccurrences('ABABAB', 'BA') => 'ABAB'.
  */
-function removeLastOccurrences(/* str, value */) {
+/*function removeLastOccurrences(/* str, value */) {
   //throw new Error('Not implemented');
-}
+}*/
 
 /**
  * Calculate the sum of character codes of the given string.
@@ -248,9 +248,9 @@ function endsWith(str, substr) {
  *   formatTime(0, 45) => "00:45"
  *   formatTime(0, 0) => "00:00"
  */
-function formatTime(/* minutes, seconds */) {
+/*function formatTime(/* minutes, seconds */) {
   //throw new Error('Not implemented');
-}
+}*/
 
 /**
  * Returns a string in reverse order.
@@ -361,9 +361,9 @@ function isPalindrome(str) {
  *   findLongestWord('A long and winding road') => 'winding'
  *   findLongestWord('No words here') => 'words'
  */
-function findLongestWord(/* sentence */) {
+/*function findLongestWord(/* sentence */) {
  // throw new Error('Not implemented');
-}
+}*/
 
 /**
  * Returns the string where each word is reversed.
@@ -432,9 +432,9 @@ function getStringFromTemplate(firstName, lastName) {
  *   extractNameFromTemplate('Hello, John Doe!') => 'John Doe'
  *   extractNameFromTemplate('Hello, Chuck Norris!') => 'Chuck Norris'
  */
-function extractNameFromTemplate(/* value */) {
+/*function extractNameFromTemplate(/* value */) {
   //throw new Error('Not implemented');
-}
+}*/
 
 /**
  * Remove the first and last angle brackets from tag string
@@ -447,9 +447,9 @@ function extractNameFromTemplate(/* value */) {
  *   unbracketTag('<span>') => 'span'
  *   unbracketTag('<a>') => 'a'
  */
-function unbracketTag(/* str */) {
+/*function unbracketTag(/* str */) {
   //throw new Error('Not implemented');
-}
+}*/
 
 /**
  * Extracts e-mails from single string with e-mails list delimited by semicolons
@@ -466,9 +466,9 @@ function unbracketTag(/* str */) {
  *   ],
  *   'info@gmail.com' => ['info@gmail.com']
  */
-function extractEmails(/* str */) {
+/*function extractEmails(/* str */) {
   //throw new Error('Not implemented');
-}
+}*/
 
 /**
  * Encode specified string with ROT13 cipher
@@ -486,10 +486,10 @@ function extractEmails(/* str */) {
  *    => 'NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm'
  *
  */
-function encodeToRot13(/* str */) {
+/*function encodeToRot13(/* str */) {
   //throw new Error('Not implemented');
 }
-
+*/
 /**
  * Returns playid card id.
  *
@@ -514,9 +514,9 @@ function encodeToRot13(/* str */) {
  *   'Q♠' => 50
  *   'K♠' => 51
  */
-function getCardId(/* value */) {
+/*function getCardId(/* value */) {
   //throw new Error('Not implemented');
-}
+}*/
 
 module.exports = {
   getStringLength,
