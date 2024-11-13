@@ -216,9 +216,9 @@ function sumOfCodes(str) {
  *   startsWith('Hello World', 'World') => false
  *   startsWith('Hello World', 'Hello') => true
  */
-/*function startsWith(str, substr) {
+function startsWith(str, substr) {
   return str.startsWith(substr);
-}*/
+}
 
 /**
  * Checks if a string ends with a specific substring.
@@ -231,9 +231,9 @@ function sumOfCodes(str) {
  *   endsWith('Hello World', 'World') => true
  *   endsWith('Hello World', 'Hello') => false
  */
-function endsWith(str, substr) {
+/*function endsWith(str, substr) {
   return str.endsWith(substr);
-}
+}*/
 
 /**
  * Returns a time string in the "mm:ss" format.
