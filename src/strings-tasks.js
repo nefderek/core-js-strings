@@ -295,9 +295,9 @@ function orderAlphabetically(str) {
  *   containsSubstring('JavaScript is Fun', 'Python') => false
  *   containsSubstring('12345', '34') => true
  */
-/*function containsSubstring(str, substring) {
+function containsSubstring(str, substring) {
   return str.includes(substring)
-}*/
+}
 
 /**
  * Returns the number of vowels in the string.
@@ -313,7 +313,7 @@ function orderAlphabetically(str) {
  *   countVowels('aEiOu') => 5
  *   countVowels('XYZ') => 1
  */
-  function countVowels(str) {
+ /* function countVowels(str) {
     let count = 0;
   const arr = 'aeiouyAEIOUY';
   for (let i = 0; i < str.length; i++) {
@@ -322,8 +322,7 @@ function orderAlphabetically(str) {
     } 
   }
   return count;
-  }
-
+  }*/
 /**
  * Returns true if the string is a palindrome; otherwise false.
  * https://en.wikipedia.org/wiki/Palindrome
