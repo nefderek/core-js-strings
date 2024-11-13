@@ -42,13 +42,13 @@ function getStringLength(value) {
  *   isString('test') => true
  *   isString(new String('test')) => true
  */
-/*function isString(value) {
+function isString(value) {
   if (typeof value === 'string'|| value instanceof String ){
     return true;
   } else {
     return fasle;
   }
-}*/
+}
 
 /**
  * Returns the result of concatenation of two strings.
@@ -77,13 +77,13 @@ function concatenateStrings(value1, value2) {
  *   getFirstChar('cat') => 'c'
  *   getFirstChar('') => ''
  */
-function getFirstChar(value) {
+/*function getFirstChar(value) {
   if (value == '') {
     return '';
   } else {
   return value[0];
   }
-}
+}*/
 
 /**
  * Removes leading and trailing whitespace characters from the string.
