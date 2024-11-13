@@ -231,9 +231,9 @@ function startsWith(str, substr) {
  *   endsWith('Hello World', 'World') => true
  *   endsWith('Hello World', 'Hello') => false
  */
-/*function endsWith(str, substr) {
+function endsWith(str, substr) {
   return str.endsWith(substr);
-}*/
+}
 
 /**
  * Returns a time string in the "mm:ss" format.
@@ -262,10 +262,10 @@ function startsWith(str, substr) {
  *   reverseString('abcdef') => 'fedcba'
  *   reverseString('12345') => '54321'
  */
-function reverseString(str) {
+/*function reverseString(str) {
     str = str.split('').reverse().join('');
     return str;
-  }
+  }*/
 
 /**
  * Returns a string with characters in alphabetical order.
