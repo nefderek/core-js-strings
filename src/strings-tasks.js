@@ -126,9 +126,9 @@ function removeLeadingWhitespaces(value) {
  *   removeTrailingWhitespaces('cat ') => 'cat'
  *   removeTrailingWhitespaces('\t\t\tHello, World! ') => '\t\t\tHello, World!'
  */
-/*function removeTrailingWhitespaces(value) {
+function removeTrailingWhitespaces(value) {
   return value.trimEnd();
-}*/
+}
 
 /**
  * Returns a string that is repeated the specified number of times.
@@ -143,13 +143,13 @@ function removeLeadingWhitespaces(value) {
  *   repeatString('', 3) => ''
  *   repeatString('abc', -2) => ''
  */
-function repeatString(str, times) {
+/*function repeatString(str, times) {
   if (times < 0) {
     return '';
    } else {
      return str.repeat(times);
    }
-}
+}*/
 
 /**
  * Remove the first occurrence of a substring from a string.
