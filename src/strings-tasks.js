@@ -196,7 +196,7 @@ function removeFirstOccurrences(str, value) {
  *   sumOfCodes('') => 0
  *   sumOfCodes() => 0
  */
-function sumOfCodes(str) {
+/*function sumOfCodes(str) {
  str = str.split('');
  let rez = 0 ;
   for (let i = 0; i < a.length; i ++){
@@ -204,7 +204,7 @@ function sumOfCodes(str) {
     rez = rez + str[i];
   }
  return rez;
-}
+}*/
 
 /**
  * Checks if a string starts with a specific substring.
@@ -419,9 +419,9 @@ function invertCase(str) {
  *   getStringFromTemplate('John','Doe') => 'Hello, John Doe!'
  *   getStringFromTemplate('Chuck','Norris') => 'Hello, Chuck Norris!'
  */
-/*function getStringFromTemplate(firstName, lastName) {
+function getStringFromTemplate(firstName, lastName) {
   return `Hello, ${firstName} ${lastName}!`;
-}*/
+}
 
 /**
  * Extracts a name from template string 'Hello, First_Name Last_Name!'.
