@@ -143,13 +143,13 @@ function removeTrailingWhitespaces(value) {
  *   repeatString('', 3) => ''
  *   repeatString('abc', -2) => ''
  */
-/*function repeatString(str, times) {
+function repeatString(str, times) {
   if (times < 0) {
     return '';
    } else {
      return str.repeat(times);
    }
-}*/
+}
 
 /**
  * Remove the first occurrence of a substring from a string.
@@ -163,9 +163,9 @@ function removeTrailingWhitespaces(value) {
  *   removeFirstOccurrences('I like legends', 'end') => 'I like legs'.
  *   removeFirstOccurrences('ABABAB', 'BA') => 'ABAB'.
  */
-function removeFirstOccurrences(str, value) {
+/*function removeFirstOccurrences(str, value) {
   return str.replace(value, '');
-}
+}*/
 
 /**
  * Remove the last occurrence of a substring from a string.
