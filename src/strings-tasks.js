@@ -278,10 +278,10 @@ function reverseString(str) {
  *   orderAlphabetically('textbook') => 'bekoottx'
  *   orderAlphabetically('abc123xyz') => '123abcxyz'
  */
-/*function orderAlphabetically(str) {
+function orderAlphabetically(str) {
   str = str.split('').sort().join('');
   return str;
-}*/
+}
 
 /**
  * Checks if a given string contains a specified substring.
@@ -295,9 +295,9 @@ function reverseString(str) {
  *   containsSubstring('JavaScript is Fun', 'Python') => false
  *   containsSubstring('12345', '34') => true
  */
-function containsSubstring(str, substring) {
+/*function containsSubstring(str, substring) {
   return str.includes(substring)
-}
+}*/
 
 /**
  * Returns the number of vowels in the string.
