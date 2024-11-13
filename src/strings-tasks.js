@@ -163,9 +163,9 @@ function repeatString(str, times) {
  *   removeFirstOccurrences('I like legends', 'end') => 'I like legs'.
  *   removeFirstOccurrences('ABABAB', 'BA') => 'ABAB'.
  */
-/*function removeFirstOccurrences(str, value) {
+function removeFirstOccurrences(str, value) {
   return str.replace(value, '');
-}*/
+}
 
 /**
  * Remove the last occurrence of a substring from a string.
@@ -418,9 +418,9 @@ function invertCase(str) {
  *   getStringFromTemplate('John','Doe') => 'Hello, John Doe!'
  *   getStringFromTemplate('Chuck','Norris') => 'Hello, Chuck Norris!'
  */
-function getStringFromTemplate(firstName, lastName) {
+/*function getStringFromTemplate(firstName, lastName) {
   return `Hello, ${firstName} ${lastName}!`;
-}
+}*/
 
 /**
  * Extracts a name from template string 'Hello, First_Name Last_Name!'.
