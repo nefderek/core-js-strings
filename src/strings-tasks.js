@@ -143,13 +143,13 @@ function removeTrailingWhitespaces(value) {
  *   repeatString('', 3) => ''
  *   repeatString('abc', -2) => ''
  */
-/*function repeatString(str, times) {
+function repeatString(str, times) {
   if (times < 0) {
     return '';
    } else {
      return str.repeat(times);
    }
-}*/
+}
 
 /**
  * Remove the first occurrence of a substring from a string.
@@ -181,7 +181,8 @@ function removeFirstOccurrences(str, value) {
  */
 /*function removeLastOccurrences(/* str, value */) {
   //throw new Error('Not implemented');
-}*/
+}
+*/
 
 /**
  * Calculate the sum of character codes of the given string.
@@ -195,7 +196,7 @@ function removeFirstOccurrences(str, value) {
  *   sumOfCodes('') => 0
  *   sumOfCodes() => 0
  */
-function sumOfCodes(str) {
+/*function sumOfCodes(str) {
  str = str.split('');
  let rez = 0 ;
   for (let i = 0; i < a.length; i ++){
@@ -203,7 +204,7 @@ function sumOfCodes(str) {
     rez = rez + str[i];
   }
  return rez;
-}
+}*/
 
 /**
  * Checks if a string starts with a specific substring.
