@@ -179,8 +179,8 @@ function removeFirstOccurrences(str, value) {
  *   removeLastOccurrences('I like legends', 'end') => 'I like legs'.
  *   removeLastOccurrences('ABABAB', 'BA') => 'ABAB'.
  */
-function removeLastOccurrences(/* str, value */) {
-  //throw new Error('Not implemented');
+function removeLastOccurrences(str, value) {
+  return 0;
 }
 
 /**
@@ -248,8 +248,8 @@ function endsWith(str, substr) {
  *   formatTime(0, 45) => "00:45"
  *   formatTime(0, 0) => "00:00"
  */
-function formatTime(/* minutes, seconds */) {
-  //throw new Error('Not implemented');
+function formatTime(minutes, seconds) {
+  return 0;
 }
 
 /**
@@ -361,8 +361,8 @@ function isPalindrome(str) {
  *   findLongestWord('A long and winding road') => 'winding'
  *   findLongestWord('No words here') => 'words'
  */
-function findLongestWord(/* sentence */) {
- // throw new Error('Not implemented');
+function findLongestWord(sentence) {
+ return 0;
 }
 
 /**
@@ -432,8 +432,8 @@ function getStringFromTemplate(firstName, lastName) {
  *   extractNameFromTemplate('Hello, John Doe!') => 'John Doe'
  *   extractNameFromTemplate('Hello, Chuck Norris!') => 'Chuck Norris'
  */
-function extractNameFromTemplate(/* value */) {
-  //throw new Error('Not implemented');
+function extractNameFromTemplate(value) {
+  return 0;
 }
 
 /**
@@ -447,8 +447,8 @@ function extractNameFromTemplate(/* value */) {
  *   unbracketTag('<span>') => 'span'
  *   unbracketTag('<a>') => 'a'
  */
-function unbracketTag(/* str */) {
-  //throw new Error('Not implemented');
+function unbracketTag(str) {
+  return 0;
 }
 
 /**
@@ -466,8 +466,8 @@ function unbracketTag(/* str */) {
  *   ],
  *   'info@gmail.com' => ['info@gmail.com']
  */
-function extractEmails(/* str */) {
-  //throw new Error('Not implemented');
+function extractEmails(str) {
+  return 0;
 }
 
 /**
@@ -486,8 +486,8 @@ function extractEmails(/* str */) {
  *    => 'NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm'
  *
  */
-function encodeToRot13(/* str */) {
-  //throw new Error('Not implemented');
+function encodeToRot13(str) {
+  return 0;
 }
 
 /**
@@ -514,8 +514,8 @@ function encodeToRot13(/* str */) {
  *   'Q♠' => 50
  *   'K♠' => 51
  */
-function getCardId(/* value */) {
-  //throw new Error('Not implemented');
+function getCardId(value) {
+  return 0;
 }
 
 module.exports = {
