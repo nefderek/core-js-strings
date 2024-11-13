@@ -313,7 +313,7 @@ function containsSubstring(str, substring) {
  *   countVowels('aEiOu') => 5
  *   countVowels('XYZ') => 1
  */
- /* function countVowels(str) {
+ function countVowels(str) {
     let count = 0;
   const arr = 'aeiouyAEIOUY';
   for (let i = 0; i < str.length; i++) {
@@ -322,7 +322,7 @@ function containsSubstring(str, substring) {
     } 
   }
   return count;
-  }*/
+  }
 /**
  * Returns true if the string is a palindrome; otherwise false.
  * https://en.wikipedia.org/wiki/Palindrome
@@ -336,7 +336,7 @@ function containsSubstring(str, substring) {
  *   isPalindrome('apple') => false
  *   isPalindrome('No lemon, no melon') => true
  */
-function isPalindrome(str) {
+/*function isPalindrome(str) {
   str = str.toLowerCase();
     let str1 = str.split('').reverse().join('').replace(/[^\w\s]|_/g, "");
       str = str.toLowerCase().split(' ').join('').replace(/[^\w\s]|_/g, "");
@@ -347,7 +347,7 @@ function isPalindrome(str) {
       return false;
 }
 }
-
+*/
 /**
  * Find the longest word in the sentence. If there are multiple longest words,
  * the function returns the first one encountered.
