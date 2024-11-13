@@ -96,9 +96,9 @@ function getFirstChar(value) {
  *   removeLeadingAndTrailingWhitespaces('cat ') => 'cat'
  *   removeLeadingAndTrailingWhitespaces('\t\t\tHello, World! ') => 'Hello, World!'
  */
-/*function removeLeadingAndTrailingWhitespaces(value) {
+function removeLeadingAndTrailingWhitespaces(value) {
   return value.trim();
-}*/
+}
 
 /**
  * Removes only leading whitespace characters from the string.
@@ -111,9 +111,9 @@ function getFirstChar(value) {
  *   removeLeadingWhitespaces('cat ') => 'cat '
  *   removeLeadingWhitespaces('\t\t\tHello, World! ') => 'Hello, World! '
  */
-function removeLeadingWhitespaces(value) {
+/*function removeLeadingWhitespaces(value) {
   return value.trimStart();
-}
+}*/
 
 /**
  * Removes only trailing whitespace characters from the string.
