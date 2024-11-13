@@ -19,14 +19,9 @@
  *   getStringLength(null) => 0
  *   getStringLength(undefined) => 0
  */
-/*function getStringLength(value) {
-  if (value == null || value == undefined || value < 1)   {
-    return 0;   
-  } else {
-    return value.length;
-  }
-}*/
-
+function getStringLength(/* value */) {
+  throw new Error('Not implemented');
+}
 
 /**
  * Returns true if the value is a string, otherwise returns false.
@@ -42,13 +37,9 @@
  *   isString('test') => true
  *   isString(new String('test')) => true
  */
-/*function isString(value) {
-  if (typeof value === 'string'|| value instanceof String ){
-    return true;
-  } else {
-    return fasle;
-  }
-}*/
+function isString(/* value */) {
+  throw new Error('Not implemented');
+}
 
 /**
  * Returns the result of concatenation of two strings.
@@ -62,9 +53,9 @@
  *   concatenateStrings('aa', '') => 'aa'.
  *   concatenateStrings('', 'bb') => 'bb'
  */
-/*function concatenateStrings(value1, value2) {
-  return value1 + value2;
-}*/
+function concatenateStrings(/* value1, value2 */) {
+  throw new Error('Not implemented');
+}
 
 /**
  * Returns the first character of the given string.
@@ -77,13 +68,9 @@
  *   getFirstChar('cat') => 'c'
  *   getFirstChar('') => ''
  */
-/*function getFirstChar(value) {
-  if (value == '') {
-    return '';
-  } else {
-  return value[0];
-  }
-}*/
+function getFirstChar(/* value */) {
+  throw new Error('Not implemented');
+}
 
 /**
  * Removes leading and trailing whitespace characters from the string.
@@ -96,9 +83,9 @@
  *   removeLeadingAndTrailingWhitespaces('cat ') => 'cat'
  *   removeLeadingAndTrailingWhitespaces('\t\t\tHello, World! ') => 'Hello, World!'
  */
-/*function removeLeadingAndTrailingWhitespaces(value) {
-  return value.trim();
-}*/
+function removeLeadingAndTrailingWhitespaces(/* value */) {
+  throw new Error('Not implemented');
+}
 
 /**
  * Removes only leading whitespace characters from the string.
@@ -111,9 +98,9 @@
  *   removeLeadingWhitespaces('cat ') => 'cat '
  *   removeLeadingWhitespaces('\t\t\tHello, World! ') => 'Hello, World! '
  */
-/*function removeLeadingWhitespaces(value) {
-  return value.trimStart();
-}*/
+function removeLeadingWhitespaces(/* value */) {
+  throw new Error('Not implemented');
+}
 
 /**
  * Removes only trailing whitespace characters from the string.
@@ -126,9 +113,9 @@
  *   removeTrailingWhitespaces('cat ') => 'cat'
  *   removeTrailingWhitespaces('\t\t\tHello, World! ') => '\t\t\tHello, World!'
  */
-/*function removeTrailingWhitespaces(value) {
-  return value.trimEnd();
-}*/
+function removeTrailingWhitespaces(/* value */) {
+  throw new Error('Not implemented');
+}
 
 /**
  * Returns a string that is repeated the specified number of times.
@@ -143,13 +130,9 @@
  *   repeatString('', 3) => ''
  *   repeatString('abc', -2) => ''
  */
-/*function repeatString(str, times) {
-  if (times < 0) {
-    return '';
-   } else {
-     return str.repeat(times);
-   }
-}*/
+function repeatString(/* str, times */) {
+  throw new Error('Not implemented');
+}
 
 /**
  * Remove the first occurrence of a substring from a string.
@@ -163,9 +146,9 @@
  *   removeFirstOccurrences('I like legends', 'end') => 'I like legs'.
  *   removeFirstOccurrences('ABABAB', 'BA') => 'ABAB'.
  */
-/*function removeFirstOccurrences(str, value) {
-  return str.replace(value, '');
-}*/
+function removeFirstOccurrences(/* str, value */) {
+  throw new Error('Not implemented');
+}
 
 /**
  * Remove the last occurrence of a substring from a string.
@@ -179,9 +162,9 @@
  *   removeLastOccurrences('I like legends', 'end') => 'I like legs'.
  *   removeLastOccurrences('ABABAB', 'BA') => 'ABAB'.
  */
-/*function removeLastOccurrences(/* str, value */) {
-  //throw new Error('Not implemented');
-}*/
+function removeLastOccurrences(/* str, value */) {
+  throw new Error('Not implemented');
+}
 
 /**
  * Calculate the sum of character codes of the given string.
@@ -195,15 +178,9 @@
  *   sumOfCodes('') => 0
  *   sumOfCodes() => 0
  */
-/*function sumOfCodes(str) {
- str = str.split('');
- let rez = 0 ;
-  for (let i = 0; i < a.length; i ++){
-    str[i] = str[i].charCodeAt(0);
-    rez = rez + str[i];
-  }
- return rez;
-}*/
+function sumOfCodes(/* str */) {
+  throw new Error('Not implemented');
+}
 
 /**
  * Checks if a string starts with a specific substring.
@@ -216,9 +193,9 @@
  *   startsWith('Hello World', 'World') => false
  *   startsWith('Hello World', 'Hello') => true
  */
-/*function startsWith(str, substr) {
-  return str.startsWith(substr);
-}*/
+function startsWith(/* str, substr */) {
+  throw new Error('Not implemented');
+}
 
 /**
  * Checks if a string ends with a specific substring.
@@ -231,9 +208,9 @@
  *   endsWith('Hello World', 'World') => true
  *   endsWith('Hello World', 'Hello') => false
  */
-/*function endsWith(str, substr) {
-  return str.endsWith(substr);
-}*/
+function endsWith(/* str, substr */) {
+  throw new Error('Not implemented');
+}
 
 /**
  * Returns a time string in the "mm:ss" format.
@@ -248,9 +225,9 @@
  *   formatTime(0, 45) => "00:45"
  *   formatTime(0, 0) => "00:00"
  */
-/*function formatTime(/* minutes, seconds */) {
-  //throw new Error('Not implemented');
-}*/
+function formatTime(/* minutes, seconds */) {
+  throw new Error('Not implemented');
+}
 
 /**
  * Returns a string in reverse order.
@@ -262,10 +239,9 @@
  *   reverseString('abcdef') => 'fedcba'
  *   reverseString('12345') => '54321'
  */
-/*function reverseString(str) {
-    str = str.split('').reverse().join('');
-    return str;
-  }*/
+function reverseString(/* str */) {
+  throw new Error('Not implemented');
+}
 
 /**
  * Returns a string with characters in alphabetical order.
@@ -278,10 +254,9 @@
  *   orderAlphabetically('textbook') => 'bekoottx'
  *   orderAlphabetically('abc123xyz') => '123abcxyz'
  */
-/*function orderAlphabetically(str) {
-  str = str.split('').sort().join('');
-  return str;
-}*/
+function orderAlphabetically(/* str */) {
+  throw new Error('Not implemented');
+}
 
 /**
  * Checks if a given string contains a specified substring.
@@ -295,9 +270,9 @@
  *   containsSubstring('JavaScript is Fun', 'Python') => false
  *   containsSubstring('12345', '34') => true
  */
-/*function containsSubstring(str, substring) {
-  return str.includes(substring)
-}*/
+function containsSubstring(/* str, substring */) {
+  throw new Error('Not implemented');
+}
 
 /**
  * Returns the number of vowels in the string.
@@ -313,16 +288,10 @@
  *   countVowels('aEiOu') => 5
  *   countVowels('XYZ') => 1
  */
- /*function countVowels(str) {
-    let count = 0;
-  const arr = 'aeiouyAEIOUY';
-  for (let i = 0; i < str.length; i++) {
-    if (arr.includes(str[i])) {
-      count ++;
-    } 
-  }
-  return count;
-  }*/
+function countVowels(/* str */) {
+  throw new Error('Not implemented');
+}
+
 /**
  * Returns true if the string is a palindrome; otherwise false.
  * https://en.wikipedia.org/wiki/Palindrome
@@ -336,17 +305,9 @@
  *   isPalindrome('apple') => false
  *   isPalindrome('No lemon, no melon') => true
  */
-/*function isPalindrome(str) {
-  str = str.toLowerCase();
-    let str1 = str.split('').reverse().join('').replace(/[^\w\s]|_/g, "");
-      str = str.toLowerCase().split(' ').join('').replace(/[^\w\s]|_/g, "");
-        str1 = str1.split(' ').join('');
-    if (str == str1) {
-      return true;
-    } else {
-      return false;
+function isPalindrome(/* str */) {
+  throw new Error('Not implemented');
 }
-}*/
 
 /**
  * Find the longest word in the sentence. If there are multiple longest words,
@@ -360,9 +321,9 @@
  *   findLongestWord('A long and winding road') => 'winding'
  *   findLongestWord('No words here') => 'words'
  */
-/*function findLongestWord(/* sentence */) {
- // throw new Error('Not implemented');
-}*/
+function findLongestWord(/* sentence */) {
+  throw new Error('Not implemented');
+}
 
 /**
  * Returns the string where each word is reversed.
@@ -374,11 +335,9 @@
  *   reverseWords('Hello World') => 'olleH dlroW'
  *   reverseWords('The Quick Brown Fox') => 'ehT kciuQ nworB xoF'
  */
-/*function reverseWords(str) {
-  str = str.split('').reverse().join('');
-  str = str.split(' ').reverse().join(' ');
-  return str;
-}*/
+function reverseWords(/* str */) {
+  throw new Error('Not implemented');
+}
 
 /**
  * Inverts the case of each character in the given string.
@@ -391,18 +350,9 @@
  *   invertCase('JavaScript is Fun') => 'jAVAsCRIPT IS fUN'
  *   invertCase('12345') => '12345'
  */
-/*function invertCase(str) {
-  let newStr = "";
-
-  for (let i = 0; i < str.length; i++) {
-    if (str[i] === str[i].toLowerCase()) {
-      newStr = newStr + str[i].toUpperCase();
-    } else {
-      newStr = newStr + str[i].toLowerCase();
-    }
-  }
-  return newStr;
-}*/
+function invertCase(/* str */) {
+  throw new Error('Not implemented');
+}
 
 /**
  * Returns the result of string template and given parameters firstName and lastName.
@@ -417,9 +367,9 @@
  *   getStringFromTemplate('John','Doe') => 'Hello, John Doe!'
  *   getStringFromTemplate('Chuck','Norris') => 'Hello, Chuck Norris!'
  */
-/*function getStringFromTemplate(firstName, lastName) {
-  return `Hello, ${firstName} ${lastName}!`;
-}*/
+function getStringFromTemplate(/* firstName, lastName */) {
+  throw new Error('Not implemented');
+}
 
 /**
  * Extracts a name from template string 'Hello, First_Name Last_Name!'.
@@ -431,9 +381,9 @@
  *   extractNameFromTemplate('Hello, John Doe!') => 'John Doe'
  *   extractNameFromTemplate('Hello, Chuck Norris!') => 'Chuck Norris'
  */
-/*function extractNameFromTemplate(/* value */) {
-  //throw new Error('Not implemented');
-}*/
+function extractNameFromTemplate(/* value */) {
+  throw new Error('Not implemented');
+}
 
 /**
  * Remove the first and last angle brackets from tag string
@@ -446,8 +396,8 @@
  *   unbracketTag('<span>') => 'span'
  *   unbracketTag('<a>') => 'a'
  */
-/*function unbracketTag(/* str */) {
-  //throw new Error('Not implemented');
+function unbracketTag(/* str */) {
+  throw new Error('Not implemented');
 }
 
 /**
@@ -465,9 +415,9 @@
  *   ],
  *   'info@gmail.com' => ['info@gmail.com']
  */
-/*function extractEmails(str) {
-  return str;
-}*/
+function extractEmails(/* str */) {
+  throw new Error('Not implemented');
+}
 
 /**
  * Encode specified string with ROT13 cipher
@@ -485,9 +435,9 @@
  *    => 'NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm'
  *
  */
-/*function encodeToRot13(str) {
-  return str;
-}*/
+function encodeToRot13(/* str */) {
+  throw new Error('Not implemented');
+}
 
 /**
  * Returns playid card id.
@@ -513,9 +463,9 @@
  *   'Q♠' => 50
  *   'K♠' => 51
  */
-/*function getCardId(value) {
- retrun value;
-}*/
+function getCardId(/* value */) {
+  throw new Error('Not implemented');
+}
 
 module.exports = {
   getStringLength,
