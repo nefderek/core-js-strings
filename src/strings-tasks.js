@@ -77,13 +77,13 @@ function concatenateStrings(value1, value2) {
  *   getFirstChar('cat') => 'c'
  *   getFirstChar('') => ''
  */
-function getFirstChar(value) {
+/*function getFirstChar(value) {
   if (value == '') {
     return '';
   } else {
   return value[0];
   }
-}
+}*/
 
 /**
  * Removes leading and trailing whitespace characters from the string.
@@ -449,7 +449,7 @@ function getStringFromTemplate(firstName, lastName) {
  */
 /*function unbracketTag(/* str */) {
   //throw new Error('Not implemented');
-}*/
+}
 
 /**
  * Extracts e-mails from single string with e-mails list delimited by semicolons
@@ -466,9 +466,9 @@ function getStringFromTemplate(firstName, lastName) {
  *   ],
  *   'info@gmail.com' => ['info@gmail.com']
  */
-/*function extractEmails(/* str */) {
-  //throw new Error('Not implemented');
-}*/
+function extractEmails(str) {
+  return str;
+}
 
 /**
  * Encode specified string with ROT13 cipher
@@ -486,9 +486,9 @@ function getStringFromTemplate(firstName, lastName) {
  *    => 'NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm'
  *
  */
-*/function encodeToRot13(/* str */) {
-  //throw new Error('Not implemented');
-}*/
+function encodeToRot13(str) {
+  return str;
+}
 
 /**
  * Returns playid card id.
