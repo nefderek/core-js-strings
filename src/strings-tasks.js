@@ -337,7 +337,7 @@ function containsSubstring(str, substring) {
  *   isPalindrome('apple') => false
  *   isPalindrome('No lemon, no melon') => true
  */
-function isPalindrome(str) {
+/*function isPalindrome(str) {
   str = str.toLowerCase();
     let str1 = str.split('').reverse().join('').replace(/[^\w\s]|_/g, "");
       str = str.toLowerCase().split(' ').join('').replace(/[^\w\s]|_/g, "");
@@ -347,7 +347,7 @@ function isPalindrome(str) {
     } else {
       return false;
 }
-}
+}*/
 
 /**
  * Find the longest word in the sentence. If there are multiple longest words,
