@@ -417,9 +417,9 @@ function invertCase(str) {
  *   getStringFromTemplate('John','Doe') => 'Hello, John Doe!'
  *   getStringFromTemplate('Chuck','Norris') => 'Hello, Chuck Norris!'
  */
-/*function getStringFromTemplate(firstName, lastName) {
+function getStringFromTemplate(firstName, lastName) {
   return `Hello, ${firstName} ${lastName}!`;
-}*/
+}
 
 /**
  * Extracts a name from template string 'Hello, First_Name Last_Name!'.
