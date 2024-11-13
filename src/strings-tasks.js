@@ -19,13 +19,13 @@
  *   getStringLength(null) => 0
  *   getStringLength(undefined) => 0
  */
-function getStringLength(value) {
+/*function getStringLength(value) {
   if (value == null || value == undefined || value < 1)   {
     return 0;   
   } else {
     return value.length;
   }
-}
+}*/
 
 
 /**
@@ -42,13 +42,13 @@ function getStringLength(value) {
  *   isString('test') => true
  *   isString(new String('test')) => true
  */
-/*function isString(value) {
+function isString(value) {
   if (typeof value === 'string'|| value instanceof String ){
     return true;
   } else {
     return fasle;
   }
-}*/
+}
 
 /**
  * Returns the result of concatenation of two strings.
