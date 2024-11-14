@@ -37,12 +37,8 @@ function getStringLength(/* value */) {
  *   isString('test') => true
  *   isString(new String('test')) => true
  */
-function isString(value) {
-    if (typeof value === 'string'|| value instanceof String ){
-    return true;
-  } else {
-    return fasle;
-  }
+function isString(/* value */) {
+  throw new Error('Not implemented');
 }
 
 /**
