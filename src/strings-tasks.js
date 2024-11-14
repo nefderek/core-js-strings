@@ -19,8 +19,8 @@
  *   getStringLength(null) => 0
  *   getStringLength(undefined) => 0
  */
-function getStringLength(value) {
-  const getStringLength = (value) => typeof value === 'string' ? value.length : 0;
+function getStringLength(/* value */) {
+  throw new Error('Not implemented');
 }
 
 /**
@@ -307,7 +307,6 @@ function countVowels(/* str */) {
  */
 function isPalindrome(/* str */) {
   throw new Error('Not implemented');
-}
 }
 
 /**
