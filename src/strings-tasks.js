@@ -38,7 +38,7 @@ function getStringLength(/* value */) {
  *   isString(new String('test')) => true
  */
 function isString(/* value */) {
-    throw new Error('Not implemented');
+  throw new Error('Not implemented');
 }
 
 /**
