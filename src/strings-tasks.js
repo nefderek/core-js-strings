@@ -383,9 +383,8 @@ function invertCase(str) {
   for (let i = 0; i < str.length; i += 1) {
     if (str[i] === str[i].toLowerCase()) {
       newStr += str[i].toUpperCase();
-    } else {
-      newStr += str[i].toLowerCase();
     }
+    newStr += str[i].toLowerCase();
   }
   return newStr;
 }
