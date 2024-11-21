@@ -23,7 +23,7 @@ function getStringLength(value) {
   if (value === null || value === undefined) {
     return 0;
   }
-    return value.length;
+  return value.length;
 }
 
 
