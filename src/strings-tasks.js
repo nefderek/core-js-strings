@@ -20,10 +20,12 @@
  *   getStringLength(undefined) => 0
  */
 function getStringLength(value) {
+  const zero = 0;
   if (value === null || value === undefined) {
-  return 0;
+  return zero;
   }
-  return value.length;
+  const rez = value.length;
+  return rez;
 }
 
 
