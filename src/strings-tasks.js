@@ -23,7 +23,8 @@ function getStringLength(value) {
   if (value === 'undefined' || value === null) {
     return 0;
   }
-  return value.length;
+  const rez = value.length;
+  return rez;
 }
 
 /**
