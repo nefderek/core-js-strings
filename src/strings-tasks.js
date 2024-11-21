@@ -21,9 +21,9 @@
  */
 function getStringLength(value) {
   if (value === null || value === undefined || value < 1) {
-    return 0;
+  return 0;
   }
-    let rez = value.length;
+  let rez = value.length;
   return rez;
 }
 
