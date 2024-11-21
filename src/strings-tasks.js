@@ -26,7 +26,6 @@ function getStringLength(value) {
   return value.length;
 }
 
-
 /**
  * Returns true if the value is a string, otherwise returns false.
  *
