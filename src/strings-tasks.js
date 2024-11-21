@@ -383,7 +383,6 @@ function invertCase(/* str */) {
 }
 
 
-
 /**
  * Returns the result of string template and given parameters firstName and lastName.
  * Please do not use concatenation, use template string :
