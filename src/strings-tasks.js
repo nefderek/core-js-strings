@@ -21,10 +21,10 @@
  */
 function getStringLength(value) {
   const zero = 0;
+  const rez = value.length;
   if (value === null || value === undefined) {
   return zero;
   }
-  const rez = value.length;
   return rez;
 }
 
