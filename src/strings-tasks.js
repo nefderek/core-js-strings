@@ -178,8 +178,8 @@ function removeFirstOccurrences(str, value) {
  *   removeLastOccurrences('ABABAB', 'BA') => 'ABAB'.
  */
 function removeLastOccurrences(str, value) {
-  const lastIndex = str.lastIndexOf(value);
-  const replaced = str.slice(0, lastIndex) + str.slice(lastIndex + value.length);
+  let lastIndex = str.lastIndexOf(value);
+  let replaced = str.slice(0, lastIndex) + str.slice(lastIndex + value.length);
   return replaced;
 }
 
