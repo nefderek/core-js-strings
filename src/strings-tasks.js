@@ -413,7 +413,7 @@ function getStringFromTemplate(firstName, lastName) {
  */
 function extractNameFromTemplate(value) {
   let hi = value.replace('Hello,', '');
-  let hi2 = hi.replace('!', '');
+  let hi2 = hi.replace('!', '').trimStart();
   return hi2;
 }
 
