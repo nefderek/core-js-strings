@@ -427,7 +427,8 @@ function extractNameFromTemplate(/* value */) {
  *   unbracketTag('<a>') => 'a'
  */
 function unbracketTag(str) {
-  return str.replace(/[<>]/g,"");
+  const rez = str.replace(/[<>]/g,"");
+  return rez;
 }
 
 /**
