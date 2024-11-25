@@ -381,12 +381,12 @@ function reverseWords(str) {
  *   invertCase('12345') => '12345'
  */
 function invertCase(str) {
-  const newStr = "";
+  let newStr = "";
   for (let i = 0; i < str.length; i += 1) {
     if (str[i] === str[i].toLowerCase()) {
       newStr += str[i].toUpperCase();
     }
-    newStr += str[i].toLowerCase();
+  newStr += str[i].toLowerCase();
   }
   return newStr;
 }
