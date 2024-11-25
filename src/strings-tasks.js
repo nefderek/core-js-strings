@@ -179,8 +179,7 @@ function removeFirstOccurrences(str, value) {
  */
 function removeLastOccurrences(str, value) {
   const lastIndex = str.lastIndexOf(value);
-  const replacement = '';
-  const replaced = str.slice(0, lastIndex) + replacement + str.slice(lastIndex + value.length);
+  const replaced = str.slice(0, lastIndex) + str.slice(lastIndex + value.length);
   return replaced;
 }
 
